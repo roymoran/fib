@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EBB745681FA5AE6400349BBB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBB745671FA5AE6400349BBB /* main.cpp */; };
+		EBB745721FA5B65E00349BBB /* FibCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBB745701FA5B65E00349BBB /* FibCache.cpp */; };
+		EBB745751FA5C36600349BBB /* FibCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBB745731FA5C36600349BBB /* FibCalculator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		EBB745641FA5AE6400349BBB /* fib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fib; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB745671FA5AE6400349BBB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EBB745701FA5B65E00349BBB /* FibCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibCache.cpp; sourceTree = "<group>"; };
+		EBB745711FA5B65E00349BBB /* FibCache.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FibCache.hpp; sourceTree = "<group>"; };
+		EBB745731FA5C36600349BBB /* FibCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibCalculator.cpp; sourceTree = "<group>"; };
+		EBB745741FA5C36600349BBB /* FibCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FibCalculator.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				EBB745671FA5AE6400349BBB /* main.cpp */,
+				EBB745731FA5C36600349BBB /* FibCalculator.cpp */,
+				EBB745741FA5C36600349BBB /* FibCalculator.hpp */,
+				EBB745701FA5B65E00349BBB /* FibCache.cpp */,
+				EBB745711FA5B65E00349BBB /* FibCache.hpp */,
 			);
 			path = fib;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB745721FA5B65E00349BBB /* FibCache.cpp in Sources */,
 				EBB745681FA5AE6400349BBB /* main.cpp in Sources */,
+				EBB745751FA5C36600349BBB /* FibCalculator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

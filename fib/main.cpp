@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "FibCache.hpp"
+#include "FibCalculator.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int n, fib;
+    FibCache fibCache(n);
+    FibCalculator fibCalculator;
+    
+    std::cout << "Enter number to calculate Fibonacci value: ";
+    std::cin >> n;
+
+    fib = fibCalculator.calculate(n, fibCache); // Calculate with dynamic programming/caching method
+    
+    std::cout << "Fibonacci value is " << fib << std::endl;
+
     return 0;
 }
