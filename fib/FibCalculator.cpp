@@ -12,7 +12,7 @@
 
 // calculate the fibonacci number of n using recursive method
 // following the formula F(n) = F(n-1) + F(n-2)
-int FibCalculator::calculate(int n){
+long int FibCalculator::calculate(long int n){
     if(n == 0)
         return 0;
     else if (n == 1)
@@ -24,7 +24,7 @@ int FibCalculator::calculate(int n){
 
 // calculate the fibonacci number of n using the dynamic programming
 // method following the formula F(n) = F(n-1) + F(n-2)
-int FibCalculator::calculate(int n, FibCache fibCache){
+long int FibCalculator::calculate(long int n, FibCache fibCache){
     // initialize base values
     fibCache.cache[0] = 0;
     fibCache.cache[1] = 1;

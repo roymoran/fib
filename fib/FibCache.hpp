@@ -20,8 +20,8 @@ class FibCache{
 private:
 
 public:
-    FibCache(int size);
-    std::vector<int> cache;
+    FibCache(long int size);
+    std::vector<long int> cache;
 protected:
     
 };

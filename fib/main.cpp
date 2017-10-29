@@ -11,12 +11,14 @@
 #include "FibCalculator.hpp"
 
 int main(int argc, const char * argv[]) {
-    int n, fib;
-    FibCache fibCache(n);
-    FibCalculator fibCalculator;
+    
+    long int n, fib;
     
     std::cout << "Enter number to calculate Fibonacci value: ";
     std::cin >> n;
+    
+    FibCache fibCache(n);
+    FibCalculator fibCalculator;
 
     fib = fibCalculator.calculate(n, fibCache); // Calculate with dynamic programming/caching method
     

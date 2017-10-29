@@ -18,8 +18,8 @@ class FibCalculator{
 private:
     
 public:
-    int calculate(int value);
-    int calculate(int value, FibCache cache);
+    long int calculate(long int value);
+    long int calculate(long int value, FibCache cache);
     
 protected:
     

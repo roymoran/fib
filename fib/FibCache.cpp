@@ -10,7 +10,7 @@
 
 // FibCache contructor to initialize size of
 // array
-FibCache::FibCache(int size){
+FibCache::FibCache(long int size){
     // add elements to vector array
     do {
         cache.push_back(size);
